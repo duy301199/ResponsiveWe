@@ -5,6 +5,11 @@
   #hamburger-nav {
     display: flex;
   }
+  .button-1::before, .button-1::after {
+    
+    background-color: rgb(10, 25, 30); /*var(--color);*/
+  
+   }
 
 }
 @media screen and (min-width:1081px) and (max-width:1200px) {
